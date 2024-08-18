@@ -1,0 +1,5 @@
+#trace {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}

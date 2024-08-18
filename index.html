@@ -9,13 +9,14 @@
 
         <!-- JS scripts. -->
         <script src="js/navigation.js"></script>
+
         <!-- CSS style sheets. -->
         <link rel="stylesheet" href="css/colors.css">
         <link rel="stylesheet" href="css/page.css">
         <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="css/annotation.css">
         <link rel="stylesheet" href="css/publications.css">
-        <link rel="stylesheet" href="css/floatblock.css">
+        <link rel="stylesheet" href="css/trace.css">
     </head>
 
     <body>
@@ -23,6 +24,7 @@
         <div class="navbar">
             <a href="#" onclick="loadContent('home')"> Home </a>
             <a href="#" onclick="loadContent('palette')"> Palette </a>
+            <a href="#" onclick="showTrace()"> Trace </a>
             <a href="#" onclick="loadContent('#')"> Coming </a>
         </div>
 
@@ -30,5 +32,9 @@
             <!-- Content will be loaded here -->
         </div>
 
+        <div id="trace">
+            <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=b6c7aa&w=1000&t=n&d=_dvigtZhDb893uU8JmokUHU8640v1v1eUsHKfhOo8-s&co=fffaf6&cmo=81a263&cmn=f08a5d&ct=756464'></script>
+        </div>
     </body>
 </html>
+
