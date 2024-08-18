@@ -1,0 +1,48 @@
+/* IroBright */
+/* :root {
+    --iro-theme-color: #967e76;
+    --iro-theme-color-lighter: #ac9790;
+    --iro-aux-color: #f2f2f2;
+    --iro-bg-color-darkest: #e7ddd5;
+    --iro-bg-color-darker: #f4ede7;
+    --iro-bg-color: #fffaf5;
+    --iro-text-color: #756464;
+    --iro-text-color-lighter: #857878;
+    --iro-text-color-lightest: #b1a8a8;
+    --iro-url-deactivate-color: #809a6f;
+    --iro-url-activate-color: #b6c7aa;
+    --iro-pub-emphasis-color: #f08a5d;
+} */
+
+/* IroTown */
+/* :root {
+    --iro-theme-color: #2e3440;
+    --iro-theme-color-lighter: #3b4252;
+    --iro-aux-color: #8d94a1;
+    --iro-bg-color-darkest: #eee7e1;
+    --iro-bg-color-darker: #f8f3ef;
+    --iro-bg-color: #fffaf5;
+    --iro-text-color: #60646d;
+    --iro-text-color-lighter: #7c8492;
+    --iro-text-color-lightest: #9ca3af;
+    --iro-url-deactivate-color: #547fa8;
+    --iro-url-activate-color: #a6c8e8;
+    --iro-pub-emphasis-color: #c07908;
+} */
+
+
+/* IroSilent */
+:root {
+    --iro-theme-color: #5F6F65;
+    --iro-theme-color-lighter: #808D7C;
+    --iro-aux-color: #dbdbdb;
+    --iro-bg-color-darkest: #eee7e1;
+    --iro-bg-color-darker: #f8f3ef;
+    --iro-bg-color: #fffaf5;
+    --iro-text-color: #40534C;
+    --iro-text-color-lighter: #677D6A;
+    --iro-text-color-lightest: #96a197;
+    --iro-url-deactivate-color: #81A263;
+    --iro-url-activate-color: #538392;
+    --iro-pub-emphasis-color: #FF7777;
+}

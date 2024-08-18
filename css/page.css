@@ -1,0 +1,75 @@
+body {
+    font-family: "Merriweather", serif;
+    color: var(--iro-text-color);
+    background-color: var(--iro-bg-color);
+    margin: 0;
+    font-size: 18px;
+}
+
+::selection {
+    background: var(--iro-bg-color-darkest);
+}
+
+a {
+    color: var(--iro-url-deactivate-color);
+}
+
+a:hover {
+    color: var(--iro-url-activate-color);
+}
+
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto 1fr auto;
+}
+
+iro-section {
+    max-width: 720px;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 20px 32px;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 3px #fff5ee, 1px 1px 7px #ede6e0;
+    transition: box-shadow 0.2s;
+    transition-timing-function: cubic-bezier(0,0,0.58,1); /* Custom curve */
+}
+
+iro-section:hover {
+    box-shadow: 1px 1px 3px #f5efea, 1px 1px 7px #cfc9c5;
+}
+
+iro-section-head {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--iro-border-color);
+    padding-bottom: 8px;
+    font-style: italic;
+}
+
+iro-section-head::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--iro-theme-color);
+    margin-top: 8px;
+}
+
+iro-notice {
+    font-size: 16px;
+    color: var(--iro-text-color-lightest);
+}
+
+iro-notice a {
+    color: var(--iro-text-color-lightest);
+    text-decoration: none;
+    font-style: italic;
+}

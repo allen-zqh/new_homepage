@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--iro-theme-color);
+    font-family: Georgia, serif;
+    box-shadow: 2px 2px 7px var(--iro-theme-color-lighter);
+}
+
+.navbar a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    color: var(--iro-aux-color);
+}
+
+.navbar a:hover {
+    color: var(--iro-aux-color);
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    width: 0%;
+    height: 1.5px;
+    background-color: var(--iro-aux-color);
+    transition: width 0.2s, left 0.2s;
+    transition-timing-function: cubic-bezier(0,0,0.58,1); /* Custom curve */
+    transform: translateX(-50%);
+}
+
+.navbar a:hover::after {
+    width: 100%;
+    left: 50%;
+}
+

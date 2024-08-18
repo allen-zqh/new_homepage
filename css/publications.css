@@ -1,0 +1,42 @@
+.pub-one:hover .pub-teaser {
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.32);
+}
+
+.pub-one:hover .pub-desc-wrapper b {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.16);
+}
+
+.pub-one:hover .pub-title {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.20);
+}
+
+.pub-teaser-wrapper {
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.pub-teaser {
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.12);
+    border-radius: .3em;
+    transition: box-shadow 0.2s;
+    transition-timing-function: cubic-bezier(0, 0, 0.58, 1); /* Custom curve */
+}
+
+.pub-desc-wrapper {
+    padding-top: 15px;
+    padding-left: 10px;
+    vertical-align: middle;
+    transition: text-shadow 0.2s;
+    transition-timing-function: cubic-bezier(0, 0, 0.58, 1); /* Custom curve */
+}
+
+.pub-title {
+    font-weight: 700;
+    transition: text-shadow 0.2s;
+    transition-timing-function: cubic-bezier(0, 0, 0.58, 1); /* Custom curve */
+}
+
+.pub-emph {
+    color: var(--iro-pub-emphasis-color);
+    font-weight: 700;
+}
