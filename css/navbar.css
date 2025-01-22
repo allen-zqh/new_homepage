@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     background-color: var(--iro-theme-color);
-    font-family: Georgia, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: optima, Helvetica, Arial, Verdana,sans-serif;
     box-shadow: 2px 2px 7px var(--iro-theme-color-lighter);
 }
 

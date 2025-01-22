@@ -15,7 +15,7 @@
 } */
 
 /* IroTown */
-/* :root {
+:root {
     --iro-theme-color: #2e3440;
     --iro-theme-color-lighter: #3b4252;
     --iro-aux-color: #8d94a1;
@@ -28,11 +28,11 @@
     --iro-url-deactivate-color: #547fa8;
     --iro-url-activate-color: #a6c8e8;
     --iro-pub-emphasis-color: #c07908;
-} */
+}
 
 
 /* IroSilent */
-:root {
+/* :root {
     --iro-theme-color: #5F6F65;
     --iro-theme-color-lighter: #808D7C;
     --iro-aux-color: #dbdbdb;
@@ -45,4 +45,4 @@
     --iro-url-deactivate-color: #81A263;
     --iro-url-activate-color: #538392;
     --iro-pub-emphasis-color: #FF7777;
-}
+} */
