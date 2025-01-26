@@ -18,6 +18,12 @@ a:hover {
     color: var(--iro-url-activate-color);
 }
 
+.connection-link {
+    color: var(--iro-text-color);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--iro-url-deactivate-color);
+}
+
 .content {
     padding-left: 10%;
     padding-right: 10%;

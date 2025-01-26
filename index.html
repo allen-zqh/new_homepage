@@ -8,6 +8,7 @@
         <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
 
         <!-- JS scripts. -->
+        <script src="js/connection.js"></script>
         <script src="js/navigation.js"></script>
         <script src="js/themes.js"></script>
 
@@ -18,12 +19,13 @@
         <link rel="stylesheet" href="css/annotation.css">
         <link rel="stylesheet" href="css/publications.css">
         <link rel="stylesheet" href="css/trace.css">
+
     </head>
 
     <body class="theme-iro-silent">
 
         <div class="navbar">
-            <a href="#" onclick="loadContent('home')"> Home </a>
+            <a href="#" onclick="loadContent('home');enableAsyncModifier()"> Home </a>
             <a href="#" onclick="loadContent('theme')"> Theme </a>
             <!-- <a href="#" onclick="showTrace()"> Trace </a> -->
             <a href="#" onclick=""> Coming </a>
@@ -40,8 +42,25 @@
         </div>
 
         <script>
-            initTheme();
+            function enableAsyncModifier() {
+                const interval = 1;
+                const iterMax = 5000; // Check for five seconds.
+                let iterCnt = 0;
+                const intervalId = setInterval(() => {
+                    iterCnt++;
+                    console.log('Checking...');
+                    let connectionLinkAdded = addConnectionLink(document.getElementById('content-main'));
+
+                    if (connectionLinkAdded || iterCnt >= iterMax) {
+                        clearInterval(intervalId);
+                    }
+                }, interval);
+            }
+
             hideTrace();
+            loadContent('home');
+            initTheme();
+            enableAsyncModifier();
         </script>
     </body>
 </html>

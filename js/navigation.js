@@ -1,3 +1,4 @@
+
 function loadContent(file) {
     console.log('Loading content:', file);
     // Load the content from the file.
@@ -30,4 +31,3 @@ function hideTrace() {
 //     document.getElementById('trace').style.display = 'flex';
 // }
 
-loadContent('home');
