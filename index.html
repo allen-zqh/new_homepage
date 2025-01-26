@@ -9,11 +9,7 @@
 
         <!-- JS scripts. -->
         <script src="js/navigation.js"></script>
-        <script>
-            window.onload = function() {
-                hideTrace();
-            }
-        </script>
+        <script src="js/themes.js"></script>
 
         <!-- CSS style sheets. -->
         <link rel="stylesheet" href="css/colors.css">
@@ -24,12 +20,12 @@
         <link rel="stylesheet" href="css/trace.css">
     </head>
 
-    <body>
+    <body class="theme-iro-silent">
 
         <div class="navbar">
             <a href="#" onclick="loadContent('home')"> Home </a>
             <a href="#" onclick="loadContent('palette')"> Palette </a>
-            <a href="#" onclick="showTrace()"> Trace </a>
+            <!-- <a href="#" onclick="showTrace()"> Trace </a> -->
             <a href="#" onclick=""> Coming </a>
         </div>
 
@@ -38,9 +34,15 @@
         </div>
 
         <div id="trace">
-            <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=b6c7aa&w=1000&t=n&d=_dvigtZhDb893uU8JmokUHU8640v1v1eUsHKfhOo8-s&co=fffaf6&cmo=81a263&cmn=f08a5d&ct=756464'></script>
+            <div id=clustrmaps><a href='https://clustrmaps.com/site/1c0wm'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=_dvigtZhDb893uU8JmokUHU8640v1v1eUsHKfhOo8-s'/></a></div>
+            <!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=b6c7aa&w=1000&t=n&d=_dvigtZhDb893uU8JmokUHU8640v1v1eUsHKfhOo8-s&co=fffaf6&cmo=81a263&cmn=f08a5d&ct=756464'></script> -->
             <!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=b6c7aa&w=1000&t=n&d=_dvigtZhDb893uU8JmokUHU8640v1v1eUsHKfhOo8-s&co=fffaf6&cmo=ff6c2b&cmn=ffc400&ct=756464'></script> -->
         </div>
+
+        <script>
+            initTheme();
+            hideTrace();
+        </script>
     </body>
 </html>
 

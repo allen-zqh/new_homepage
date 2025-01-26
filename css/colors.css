@@ -1,5 +1,5 @@
 /* IroBright */
-/* :root {
+.theme-iro-bright {
     --iro-theme-color: #967e76;
     --iro-theme-color-lighter: #ac9790;
     --iro-aux-color: #f2f2f2;
@@ -12,10 +12,10 @@
     --iro-url-deactivate-color: #809a6f;
     --iro-url-activate-color: #b6c7aa;
     --iro-pub-emphasis-color: #f08a5d;
-} */
+}
 
 /* IroTown */
-:root {
+.theme-iro-town {
     --iro-theme-color: #2e3440;
     --iro-theme-color-lighter: #3b4252;
     --iro-aux-color: #8d94a1;
@@ -32,17 +32,17 @@
 
 
 /* IroSilent */
-/* :root {
+.theme-iro-silent {
     --iro-theme-color: #5F6F65;
     --iro-theme-color-lighter: #808D7C;
     --iro-aux-color: #dbdbdb;
     --iro-bg-color-darkest: #eee7e1;
     --iro-bg-color-darker: #f8f3ef;
-    --iro-bg-color: #fffaf5;
+    --iro-bg-color: #fffcf5;
     --iro-text-color: #40534C;
     --iro-text-color-lighter: #677D6A;
     --iro-text-color-lightest: #96a197;
     --iro-url-deactivate-color: #81A263;
     --iro-url-activate-color: #538392;
     --iro-pub-emphasis-color: #FF7777;
-} */
+}

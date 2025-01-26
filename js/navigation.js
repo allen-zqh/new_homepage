@@ -23,11 +23,11 @@ function hideTrace() {
     document.getElementById('trace').style.display = 'none';
 }
 
-function showTrace() {
-    console.log('Showing trace.');
-    // Clear the content and toggle display of the trace.
-    loadContent('trace');
-    document.getElementById('trace').style.display = 'flex';
-}
+// function showTrace() {
+//     console.log('Showing trace.');
+//     // Clear the content and toggle display of the trace.
+//     loadContent('trace');
+//     document.getElementById('trace').style.display = 'flex';
+// }
 
 loadContent('home');
