@@ -1,10 +1,14 @@
 # Homepage
 
-This is the homepage of IsshikiHugh / Yan Xia.
+This is the homepage of IsshikiHugh / Yan XIA.
 
-Designed by Yan Xia.
+Designed by Yan XIA.
 
-# Acknowledgement
+> [!CAUTION]
+>
+> If you want to build your own homepage with mine, please remember to remove or replace the `<!-- Google tag (gtag.js) -->` part in the `index.html` file! This is the Google Analytics tag, which is used to track the traffic of the homepage.
+
+## Acknowledgement
 
 This homepage is inspired by these websites:
 
