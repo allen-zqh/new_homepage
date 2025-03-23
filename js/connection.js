@@ -2,7 +2,7 @@ const ConnectionsDict = {
     "Zehong Shen": "https://zehongs.github.io/",
     "Huaijin Pi": "https://phj128.github.io/",
     "Zhi Cen": "https://anitacen.github.io/",
-    "Sida Peng": "https://sidapeng.github.io/",
+    "Sida Peng": "https://pengsida.net/",
     "Xiaowei Zhou": "https://www.xzhou.me/",
     "Bo Dai": "https://daibo.info/",
     "Jingbo Wang": "https://wangjingbo1219.github.io/",
