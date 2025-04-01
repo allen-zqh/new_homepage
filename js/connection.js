@@ -3,10 +3,14 @@ const ConnectionsDict = {
     "Huaijin Pi": "https://phj128.github.io/",
     "Zhi Cen": "https://anitacen.github.io/",
     "Sida Peng": "https://pengsida.net/",
+    "Hujun Bao": "http://www.cad.zju.edu.cn/home/bao/",
+    "Ruizhen Hu": "https://csse.szu.edu.cn/staff/ruizhenhu/",
     "Xiaowei Zhou": "https://www.xzhou.me/",
     "Bo Dai": "https://daibo.info/",
     "Jingbo Wang": "https://wangjingbo1219.github.io/",
     "Georgios Pavlakos": "https://geopavlakos.github.io/",
+    "Etienne Vouga": "https://www.cs.utexas.edu/~evouga/",
+    "Qixing Huang": "https://www.cs.utexas.edu/~huangqx/",
 }
 
 
