@@ -30,19 +30,18 @@
     --iro-pub-emphasis-color: #c07908;
 }
 
-
 /* IroSilent */
 .theme-iro-silent {
-    --iro-theme-color: #5F6F65;
-    --iro-theme-color-lighter: #808D7C;
+    --iro-theme-color: #5f6f65;
+    --iro-theme-color-lighter: #808d7c;
     --iro-aux-color: #dbdbdb;
     --iro-bg-color-darkest: #eee7e1;
     --iro-bg-color-darker: #f8f3ef;
     --iro-bg-color: #fffcf5;
-    --iro-text-color: #40534C;
-    --iro-text-color-lighter: #677D6A;
+    --iro-text-color: #40534c;
+    --iro-text-color-lighter: #677d6a;
     --iro-text-color-lightest: #96a197;
-    --iro-url-deactivate-color: #81A263;
+    --iro-url-deactivate-color: #81a263;
     --iro-url-activate-color: #538392;
-    --iro-pub-emphasis-color: #FF7777;
+    --iro-pub-emphasis-color: #ff7777;
 }
