@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> 🏠 Qiuhan ZHAO </title>
+        <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+
+        <!-- JS scripts. -->
+        <script src="js/connection.js"></script>
+        <script src="js/navigation.js"></script>
+        <script src="js/themes.js"></script>
+
+        <!-- CSS style sheets. -->
+        <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="css/page.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/annotation.css">
+        <link rel="stylesheet" href="css/publications.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    </head>
+
+
+    <body class="theme-iro-silent">
+
+        <div class="navbar">
+            <a href="#" onclick="loadContent('home');enableAsyncModifier()"> Home </a>
+            <a href="#" onclick="loadContent('theme')"> Theme </a>
+            <a href="#" onclick=""> Coming </a>
+        </div>
+
+        <div class="content" id="content-main">
+            <!-- Content will be loaded here -->
+        </div>
+
+        <script>
+            function enableAsyncModifier() {
+                const interval = 1;
+                const iterMax = 5000; // Check for five seconds.
+                let iterCnt = 0;
+                const intervalId = setInterval(() => {
+                    iterCnt++;
+                    console.log('Checking...');
+                    let connectionLinkAdded = addConnectionLink(document.getElementById('content-main'));
+
+                    if (connectionLinkAdded || iterCnt >= iterMax) {
+                        clearInterval(intervalId);
+                    }
+                }, interval);
+            }
+
+            loadContent('home');
+            initTheme();
+            enableAsyncModifier();
+        </script>
+    </body>
+</html>
